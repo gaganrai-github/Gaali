@@ -8,17 +8,17 @@ print("============================================= WELCOME ===================
 print("================================ This bot are created by Gagan Rai ================================")
 
 
-nm = int(input("Enter number of messages : "))
+nm = int(input("Enter number of messages you want to send : "))
 
 for i in range(nm):
     if i == 0:
         continue
     else:
-        a = input(f"Enter {i} messages : ")
+        a = input(f"Write {i} messages : ")
         msg.append(a)
 
 print(f"your meassage is {msg}")
-n = int(input("Enter total number of messages : "))
+n = int(input("Enter nunber of repetitions of messages: "))
 
 print("#####################    WARNING : Now open your messenger in 10 seconds   #####################")
 
